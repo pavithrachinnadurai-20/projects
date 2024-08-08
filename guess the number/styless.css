@@ -1,0 +1,65 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.one{
+    display: flex;
+    
+}
+.image{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+/* Container Styling */
+.containers {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Heading Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+}
+/* Instructions Styling */
+#instructions {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+/* Input Field Styling */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ffeb3b;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+/* Result Styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+
