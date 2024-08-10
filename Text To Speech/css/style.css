@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M484.01 466.19a43.74 43.74 0 1 0-66.17-57.21z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1344.38 264.32L1364.07 264.32L1364.07 284.01L1344.38 284.01z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M791.32 383.34 a55.8 55.8 0 1 0 111.6 0 a55.8 55.8 0 1 0 -111.6 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M822.47 143.86L833.03 143.86L833.03 154.42L822.47 154.42z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1195.35 97.89 a16.55 16.55 0 1 0 33.1 0 a16.55 16.55 0 1 0 -33.1 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1162.73 391.95L1218.08 391.95L1218.08 406.74L1162.73 406.74z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M499.72 359.27L525.84 359.27L525.84 385.39L499.72 385.39z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M738.85 342.43a26.28 26.28 0 1 0-50.92 13.01z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M5.8 205.08a4.75 4.75 0 1 0-8.89-3.36z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M784.32 94.89L800.36 94.89L800.36 121.9L784.32 121.9z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M126.08 18.8L127.45 18.8L127.45 44.73L126.08 44.73z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M354.57 100.1a23.32 23.32 0 1 0 34.48 31.41z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1342.59 200.09 a31.14 31.14 0 1 0 62.28 0 a31.14 31.14 0 1 0 -62.28 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M385.54 465.42a10.77 10.77 0 1 0-21.01 4.74z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1125.68 257.87L1146.3 257.87L1146.3 278.49L1125.68 278.49z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M505.48 523.95a12.65 12.65 0 1 0-4.78-24.84z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1381.28 76.33 a14.72 14.72 0 1 0 29.44 0 a14.72 14.72 0 1 0 -29.44 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M297.32 254.5 a48.87 48.87 0 1 0 97.74 0 a48.87 48.87 0 1 0 -97.74 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M68.74 311.52 a17.4 17.4 0 1 0 34.8 0 a17.4 17.4 0 1 0 -34.8 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1281.28 200.09L1332.11 200.09L1332.11 239.41L1281.28 239.41z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M924.51 194.58 a51.81 51.81 0 1 0 103.62 0 a51.81 51.81 0 1 0 -103.62 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M83.55 139.23a24.7 24.7 0 1 0 18.27 45.89z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M443.17 334.28L449.94 334.28L449.94 353.68L443.17 353.68z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M809.88 428.46a46.02 46.02 0 1 0 83.02-39.73z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M985.99 387.32 a17.4 17.4 0 1 0 34.8 0 a17.4 17.4 0 1 0 -34.8 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M231.48 104.96L257.06 104.96L257.06 116.17L231.48 116.17z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M795.92 394.04a23 23 0 1 0-37.49 26.66z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1095.19 364.48a51.86 51.86 0 1 0 102.08-18.34z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M470.41 378.06 a10.86 10.86 0 1 0 21.72 0 a10.86 10.86 0 1 0 -21.72 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M290.71 29.96 a50.12 50.12 0 1 0 100.24 0 a50.12 50.12 0 1 0 -100.24 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M160.21 401.19 a32.64 32.64 0 1 0 65.28 0 a32.64 32.64 0 1 0 -65.28 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M332.26 259.8L351.42 259.8L351.42 294.56L332.26 294.56z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M952.08 545.22L994.41 545.22L994.41 563.48L952.08 563.48z' stroke='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+}
+h1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 4px 10px black;
+}
+textarea{
+    margin: 30px 0;
+    height: 100px;
+    width: 300px;
+    border: none;
+    box-shadow: 5px 6px 10px black;
+    outline: none;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+}
